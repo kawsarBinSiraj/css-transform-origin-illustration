@@ -78,7 +78,8 @@
 
 body {
     background: #2e3441;
-    background-image: -webkit-radial-gradient(top, circle cover, #4e7a89, #2e3441 80%);
+    background-image: -webkit-linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
 }
 
 .origin {
