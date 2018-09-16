@@ -76,7 +76,7 @@
 /** =================================
 * @reset css **/
 
-html, body {
+body {
     background: #2e3441;
     background-image: -webkit-radial-gradient(top, circle cover, #4e7a89, #2e3441 80%);
 }
