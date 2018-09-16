@@ -49,7 +49,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    border: solid 1px #D41872;
+    border: solid 1px red;
     -webkit-transform-origin: inherit;
     transform-origin: inherit;
 }
@@ -67,7 +67,7 @@
     z-index: 2;
 }
 .origin:after {
-    background: #D41872;
+    background: red;
     -webkit-transform: scale(0.1);
     transform: scale(0.1);
 }
@@ -78,8 +78,7 @@
 
 body {
     background: #2e3441;
-    background-image: -webkit-linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
-    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    background-image: -webkit-radial-gradient(top, circle cover, #4e7a89, #2e3441 80%);
 }
 
 .origin {
